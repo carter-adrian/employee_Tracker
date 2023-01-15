@@ -1,0 +1,26 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "Employee info tracking",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carter-adrian/employee_Tracker.git"
+  },
+  "author": "Adrian Carter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carter-adrian/employee_Tracker/issues"
+  },
+  "homepage": "https://github.com/carter-adrian/employee_Tracker#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "dotenv": "^16.0.3",
+    "inquire": "^0.4.8",
+    "mysql2": "^3.0.1"
+  }
+}
